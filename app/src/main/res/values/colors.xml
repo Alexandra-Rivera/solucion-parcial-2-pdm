@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundColor">#201E1E</color>
+    <color name="cardviewBackground">#353535</color>
+    <color name="submitButtonColor">#C6EF97</color>
+    <color name="mainTitleFragment2Color">#C6CF71</color>
+    <color name="secondTitleFragment2Color">#8BC34A</color>
+    <color name="fabButtonColor">#E0FFBC</color>
+
+</resources>

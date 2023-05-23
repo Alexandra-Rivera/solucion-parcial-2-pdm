@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ParcialIIPDM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mainTitleFragment1">Videogames List</string>
+    <string name="fabbutton">fabButton</string>
+    <string name="nombre">Nombre</string>
+    <string name="genero">Genero</string>
+    <string name="agregar">Agregar</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/videogamesList">
+
+    <fragment
+        android:id="@+id/videogamesList"
+        android:name="com.arivera.parcialiipdm.ui.videogamesList.VideogamesList"
+        android:label="fragment_videogames_list"
+        tools:layout="@layout/fragment_videogames_list" >
+        <action
+            android:id="@+id/action_videogamesList_to_newVideogames"
+            app:destination="@id/newVideogames" />
+        <action
+            android:id="@+id/action_videogamesList_to_videogamesInformation"
+            app:destination="@id/videogamesInformation" />
+    </fragment>
+    <fragment
+        android:id="@+id/videogamesInformation"
+        android:name="com.arivera.parcialiipdm.ui.VideogamesInformation"
+        android:label="fragment_videogames_information"
+        tools:layout="@layout/fragment_videogames_information" />
+    <fragment
+        android:id="@+id/newVideogames"
+        android:name="com.arivera.parcialiipdm.ui.newvideogames.NewVideogames"
+        android:label="fragment_new_videogames"
+        tools:layout="@layout/fragment_new_videogames" />
+</navigation>
